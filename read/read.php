@@ -34,19 +34,18 @@ if($num > 0){
  
         $orders_item=array(
             "OrderStatus" => $OrderStatus,
-          /*  "category" => $category,
-            "thumb" => html_entity_decode($thumb),
-            "name" => $name, */
+             // You can store more fields here as vars; Ex: "otherField"=> $otherField,
+            // Be sure the vars here are decalred first in our Class, in this sample the Class is name Orders
         );
  
         array_push($orders_arr["orders"], $orders_item);
      }
-    echo json_encode($orders_arr);
+    echo json_encode($orders_arr); //output results as json
 }
  
 else{
     echo json_encode(
-        array("message" => "Sorry but a critical error has occured.")
+        array("message" => "Sorry but a critical error has occured.") // Custom error messsage should this Rest API fail. 
     );
 }
 ?>
