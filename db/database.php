@@ -16,6 +16,7 @@ private $password='YourPassword';// This is the password for SQL account you wan
         try{
            $this->conn = new PDO("sqlsrv:Server=" . $this->hostname . ";Database=" . $this->dbname, $this->username, $this->password);
             // Note the above is for SQL Server Use the below line instead for mySQL.
+            //  $this->conn = new PDO("mysql:host=" . $this->hostname . ";dbname=" . $this->db_name, $this->username, $this->password);
            $this->conn->setAttribute( PDO::ATTR_PERSISTENT, TRUE );
            $this->conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
         }catch(PDOException $exception){
