@@ -1,7 +1,8 @@
 # Rest-API
 
-A simple Rest API for SQL sever or mySQL.
-<i>&#8226 Please note this is a proof conecpt and by no means should be used publically on a webserver. This rest API, although may work, is not secured enough for me to recommend using it in production. </i>
+A simple Rest API for SQL sever or mySQL. 
+
+<i>& #8226;  Please note this is a proof conecpt and by no means should be used publically on a webserver. This rest API, although may work, is not secured enough for me to recommend using it in production. </i>
 
 <b>How Does This Work?</b>
 
