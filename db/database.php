@@ -2,10 +2,10 @@
 class Database{
 public $conn;
 
-private $hostname='sql01';
-private $dbname='LatTest';
-private $username='sa';
-private $password='Holiday90';
+private $hostname='YourServer'; // This is the ip address or host name of the server hosting your database.
+private $dbname='YourDB'; // This is the name of the database you want to use. 
+private $username='YourUsername'; // This is the username for the SQL account you want to use.
+private $password='YourPassword';// This is the password for SQL account you want to use. 
 
 
     // get the database connection
