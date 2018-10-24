@@ -1,6 +1,7 @@
 # Rest-API
 
-How Does This Work?
+<b>How Does This Work?</b>
+
 A simple Rest API for SQL sever or mySQL.
 Please note this is a proof conecpt and by no means should be used publically on a webserver. This rest API, although may work, is not secured enough for me to recommend using it in production. 
 
