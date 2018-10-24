@@ -3,10 +3,10 @@ class Orders{
  
     // database connection and table name
     private $conn;
-    private $table_name = "SalesOrder";
+    private $table_name = "YourTable"; // Change this to the table you'd like to access.
  
     // object properties
-    public $OrderStatus; // Status of orders 
+    public $OrderStatus; // This var can be whatever you'd like
  
     // constructor with $db as database connection
     public function __construct($db){
